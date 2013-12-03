@@ -4,6 +4,8 @@ node_js:
     - "0.11"
     - "0.10"
 
-install: make
+install:
+    - ./tools/setup.sh
+    - make
 
 script: make test -j4
