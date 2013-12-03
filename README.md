@@ -91,3 +91,6 @@ Run a specific test, or test with different options:
     node build/dev-cli/console/test_runner.js -h
     node build/dev-cli/console/test_runner.js classes/test/Strings
 
+Build Status
+------------
+[![Build Status](https://travis-ci.org/int3/doppio.png)](http://travis-ci.org/int3/doppio)
